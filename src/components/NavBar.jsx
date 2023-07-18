@@ -3,9 +3,11 @@ import logoImage from '../assets/images/Logo - Platiceros/Platiceros  - Variacio
 import menuIcon from '../assets/icons/icon_menu.svg';
 import shoppingCartIcon from '../assets/icons/icon_shopping_cart.svg';
 import  '../assets/css/general.css';
+import '../assets/css/home.css';
+
 const Navbar = () => {
   return (
-    <nav className='flex flex-start'>
+    <nav className=''>
       <img src={menuIcon} alt="menu" className="menu" />
 
       <div className="navbar-left">
