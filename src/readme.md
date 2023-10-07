@@ -45,7 +45,9 @@ Requerimientos No Funcionales:
 Tecnologías:
 
 La aplicación web puede desarrollarse utilizando React.js para el frontend y Node.js para el backend, analizar si es funcional utizar mongo para la BD.
+
 Se debe utilizar Bootstrap para garantizar un diseño responsivo y atractivo.
+
 
 Seguridad:
 
