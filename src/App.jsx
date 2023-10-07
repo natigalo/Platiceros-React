@@ -1,16 +1,19 @@
 import { useState } from 'react'
+import { RouterProvider } from 'react-router-dom'
+import router from "./pages/router.jsx"
+
+
 
 import './App.css'
 import Navbar from './components/navBar'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-    <div>hola</div>
-      <Navbar/>
-    </>
+    <Provider store={store}>
+    <RouterProvider router={router}/>
+    </Provider>
   )
 }
 
